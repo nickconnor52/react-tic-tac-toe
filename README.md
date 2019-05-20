@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Additional Feature List - in order of difficulty
+
+* Display the location for each move in the format (col, row) in the move history list.
+* Bold the currently selected item in the move list.
+* Rewrite Board to use two loops to make the squares instead of hardcoding them.
+* Add a toggle button that lets you sort the moves in either ascending or descending order.
+* When someone wins, highlight the three squares that caused the win.
+* When no one wins, display a message about the result being a draw.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -36,16 +45,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Additional Feature List - in order of difficulty
-
-* Display the location for each move in the format (col, row) in the move history list.
-* Bold the currently selected item in the move list.
-* Rewrite Board to use two loops to make the squares instead of hardcoding them.
-* Add a toggle button that lets you sort the moves in either ascending or descending order.
-* When someone wins, highlight the three squares that caused the win.
-* When no one wins, display a message about the result being a draw.
-
 
 ## Learn More
 
