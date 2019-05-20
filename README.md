@@ -37,6 +37,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Additional Feature List - in order of difficulty
+
+* Display the location for each move in the format (col, row) in the move history list.
+* Bold the currently selected item in the move list.
+* Rewrite Board to use two loops to make the squares instead of hardcoding them.
+* Add a toggle button that lets you sort the moves in either ascending or descending order.
+* When someone wins, highlight the three squares that caused the win.
+* When no one wins, display a message about the result being a draw.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
