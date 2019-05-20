@@ -59,9 +59,17 @@ class Game extends React.Component {
         }
     }
 
+    history() {
+        return this.state.history
+    }
+
+    current() {
+        return this.history()[this.history().length - 1];
+    }
+
     handleClick(i) {
-        const history = this.state.history;
-        const current = history[history.length - 1]
+        const history = this.history()
+        const current = this.current()
         const squares = current.squares.slice()
         if (calculateWinner(squares) || squares[i]) {
             return;
@@ -76,8 +84,8 @@ class Game extends React.Component {
     }
 
     render() {
-        const history = this.state.history;
-        const current = history[history.length - 1];
+        const history = this.history()
+        const current = this.current()
         const winner = calculateWinner(current.squares);
 
         let status;
